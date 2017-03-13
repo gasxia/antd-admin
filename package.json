@@ -46,15 +46,8 @@
     "dev": "dora --plugins \"webpack?publicPath=/,webpack-hmr,browser-history?index=/src/index.html\"",
     "lint": "eslint --fix --ext .js,.jsx src/components/layout",
     "build": "atool-build",
-    "Rstart": "set PORT=3000&&roadhog server --no-open",
+    "test": "set PORT=3000&&roadhog server --no-open",
     "Rbuild": "roadhog build"
-  },
-  "theme": "./src/theme.js",
-  "standard": {
-    "parser": "babel-eslint",
-    "globals": [
-      "location",
-      "localStorage"
-    ]
   }
 }
+
